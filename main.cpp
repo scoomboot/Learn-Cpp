@@ -1,6 +1,11 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
-	std::cout << "Hello World!\n";
+	std::string myString{ "Hello World!" };
+
+	std::cout << myString << '\n';
+
+	return 0;
 }
